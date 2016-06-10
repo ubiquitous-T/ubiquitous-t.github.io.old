@@ -1,0 +1,50 @@
+/* tag selectors */
+body{
+  background-color:#ccff66;
+  margin:0;
+}
+img{
+  width:350px;height:350px;
+}
+p, pre, h1{
+  font-family:Droid Sans Mono;
+}
+h1, .sub-text{
+  color:#7b3510;
+  padding-top:4px;
+  padding-bottom:4px;
+}
+a{
+  text-decoration:none;
+}
+.center-text{
+  text-align:center;
+  padding:4px;
+  margin:0 auto;
+  width:350px;
+}
+.sub-text{
+  font-size:24px;
+  font-weight:bolder;
+}
+.normal-text{
+  color:#8b4513;
+  text-align:left;
+  font-size:16px;
+  font-family:Droid Sans Mono;
+  padding:0;
+}
+.image-container{
+  padding-bottom:6px;
+}
+.project-image{
+  box-shadow:3px 3px 8px grey;
+  margin:0 auto;
+  display:block;
+}
+.coffee-image{
+  box-shadow:4px 4px 8px #8b4513;
+  margin:0 auto;
+  display:block;
+}
+/* id selector */

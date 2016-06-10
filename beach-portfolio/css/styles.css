@@ -1,0 +1,64 @@
+/* selects all instances of this tag */
+  img{
+    width:350px;
+  }
+  form{
+    max-width:650px;
+    text-align:center;
+    margin:0 auto;
+  }
+  input:not([type="radio"]){
+    height:45px;
+    font-size:30px;
+    width:100%;
+  }
+  input([type="submit"]){
+    margin-top:15px;
+  }
+  /* class selector */
+  .center-text{
+    text-align:center;
+  }
+  /* multi-element selector*/
+.navbar, .navbar-container, .navbar div{
+  height:100px;
+}
+
+.navbar{
+  background-color:white;
+  box-shadow:0px 5px 10px grey;
+  width:100%;
+  position:fixed;
+  top:0px;
+  text-align:center;
+}
+
+/* descendent selector */
+.navbar div{
+  display:inline-block;
+  width:100px;
+  margin:0px -2px;
+  text-align:center;
+  padding-top: 35px;
+  box-sizing: border-box;
+}
+
+/*pseudo-selector*/
+.navbar div:hover{
+  background-color:darkgrey;
+}
+
+.navbar div:active{
+  background-color:lightgrey;
+}
+
+
+  .project-image{
+    box-shadow:3px 3px 8px grey;
+    margin:0 auto;
+    display:block;
+  }
+  /* id selector */
+  #special-text{
+    color:fuchsia;
+  }
