@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="../css/styles-2.css" charset="utf-8">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar-container">
+
+        <div class="navbar">
+          <span class="logo">SCOTT'S STUFF</span>
+          <a href="#"><div>Pages</div></a>
+          <a href="#"><div>Forms</div></a>
+          <a href="pages/form.html"><div>Contact</div></a>
+        </div>
+      </div>
+      <form class="" action="index.html" method="post">
+        <!-- first/last name -->
+        <div class="row">
+          <div class="col-md-8">
+            <legend>Contact Me</legend>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 input-text">
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" value="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 input-text">
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" value="">
+          </div>
+        </div>
+        <!-- email address -->
+        <div class="row">
+          <div class="col-md-8 input-text">
+            <label for="email">Email:</label>
+            <input type="text" name="email" value="">
+          </div>
+        </div>
+        <!-- date -->
+        <div class="row">
+          <div class="col-md-8 input-text">
+            <label for="date">Today's Date:</label>
+            <input type="date" name="date" value="">
+          </div>
+        </div>
+        <!-- radio button -->
+        <div class="row">
+          <div class="col-md-8">
+            <div class="checkbox-group">
+              <label for="business">Business
+              <input type="radio" name="business" id="business" value="">
+              </label>
+            </div>
+            <div class="checkbox-group">
+              <label for="contractor">Contractor
+              <input type="radio" name="contractor" id="contractor" value="">
+              </label>
+            </div>
+            <div class="checkbox-group">
+              <label for="individual">Individual
+              <input type="radio" name="individual" id="individual" value="">
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 input-text">
+            <label for="message">Leave a message:</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <input type="submit" name="submit" value="Send">
+          </div>
+        </div>
+      </form>
+      <!-- Footer -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="footer">
+            <div class="col-md-4">
+              <div class="left-footer-text">
+                <span>Projects</span>
+                <span>About</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="right-footer-text">
+                <span>Privacy</span>
+                <span>Terms</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>

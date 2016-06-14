@@ -1,0 +1,39 @@
+/* selects all instances of this tag */
+  body{
+    margin:0;
+    background-color:#ffffff;
+  }
+  /* class selectors */
+  .navbar-container{
+    width:100%;
+  }
+  .navbar{
+    position:fixed;
+    width:100%;
+  }
+  .logo-container{
+    border-radius:15px;
+  }
+  .logo-image{
+    width:35%;
+    height:15%;
+    image-orientation:from-image;
+  }
+  .center-text{
+    text-align:center;
+  }
+  .left-text{
+    text-align: left;
+  }
+  .right-text{
+    text-align: right;
+  }
+  .project-image{
+    box-shadow:3px 3px 8px grey;
+    margin:0 auto;
+    display:block;
+  }
+  /* id selector */
+  #special-text{
+    color:fuchsia;
+  }
