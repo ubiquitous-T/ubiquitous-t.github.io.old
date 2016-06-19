@@ -62,6 +62,11 @@ var signUp = function() {
     users[userNameEl.value] = passwordEl.value;
     // update the storage
     localStorage.setItem("users", JSON.stringify(users));
+    // clear input values
+    userNameEl.value = "";
+    passwordEl.style.borderColor = "";
+    passwordEl.value = "";
+    confirmPassEl.value = "";
     //localStorage.clear();
     // take user to new page
     window.location = "http://ubiquitous-t.github.io";
