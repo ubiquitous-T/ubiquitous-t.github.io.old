@@ -1,0 +1,66 @@
+body{
+  background-color:dodgerblue;
+}
+
+login-2-background{
+  background-color:dodgerblue;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+hr{
+  /*box-shadow:1px 1px 1px 2px;*/
+}
+
+.log-in{
+  position: relative;
+  display:block;
+  margin:0 auto;
+  margin-top:15px;
+}
+
+.login-area{
+  text-align:center;
+}
+
+.login-2-container{
+  position: relative;
+  float: right;
+}
+.login-2-area{
+  border: #2e6da4 solid;
+  border-width: thin;
+  border-radius: 2px;
+  margin: 5px;
+  width: 360px;
+  height: 720px;
+  position: relative;
+  float: right;
+  text-align:center;
+}
+
+.username-container, .password-container, .confirm-container{
+  margin-bottom: 20px;
+}
+
+.signin-label{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.jumbo-vert-left{
+  position: relative;
+  float: left;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin: 5px;
+  border: #2e6da4 solid;
+  border-width: thin;
+  border-radius:2px;
+  margin: 5px;
+  width: 480px;
+  height: 720px;
+}
