@@ -29,6 +29,7 @@ hr{
   position: relative;
   float: right;
 }
+
 .login-2-area{
   border: #2e6da4 solid;
   border-width: thin;
@@ -49,6 +50,10 @@ hr{
   display: block;
   margin-top: 5px;
   margin-bottom: 0px;
+}
+
+.username-container span, .password-container span, #confirm-container span {
+  display: block;
 }
 
 .jumbo-vert-left{
