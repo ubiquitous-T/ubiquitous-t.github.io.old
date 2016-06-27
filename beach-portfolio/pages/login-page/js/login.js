@@ -151,6 +151,7 @@ var signIn = function(){
       tempEl.type = "password";
       tempEl.className = "password";
       tempEl.id = "confirm-password";
+      tempEl.placeholder = "confirm password...";
       parent = document.querySelector(".confirm-container");
       parent.insertBefore(tempEl, parent.childNodes[0]);
       // create a label for confirm password input
@@ -172,6 +173,7 @@ var signIn = function(){
     userNameEl.disabled = true;
     passwordEl.value = "";
     passwordEl.disabled = true;
+    logInEl.disabled = "true";
     passErrorEl.innerHTML = "Too many sign-in attempts.\nYour account has been locked!";
   }
 };

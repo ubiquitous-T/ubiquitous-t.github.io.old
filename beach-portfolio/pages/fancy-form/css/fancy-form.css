@@ -1,0 +1,41 @@
+body{
+  margin:0;
+}
+
+.header{
+  background-color:black;
+  width:100%;
+  color:white;
+}
+
+form{
+  margin:0 auto;
+  width:60%;
+}
+
+input, textarea{
+  margin:35px 0px;
+}
+
+.submit{
+  margin:0px;
+  background-color:black;
+  color:white;
+  pointer-events:none;
+}
+
+.submit:hover{
+  color:lightgrey;
+}
+
+/* media query */
+@media (max-width: 500px){
+  form{
+    width:100%;
+  }
+}
+
+.submit[disabled]{
+  background-color:black;
+  opacity:.4;
+}

@@ -3,6 +3,24 @@
 <head>
   <meta charset="utf-8">
   <title>My About Me Page</title>
+  <!-- favicons for various platforms -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 <!-- link to stylesheet -->
 <link rel="stylesheet" href="css/styles-2.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -21,7 +39,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand  navbar-left" href="#">Scott @Work</a>
+      <a class="navbar-brand" id="my-navbar-brand" href="#"><img class="logo-image-sm" src="img/portfolio-logo-100-72.png" alt="portfolio logo" /></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -74,25 +92,52 @@
 </nav>
   <!-- End Bootstrap Navbar -->
 <!-- full-width jumbtron by nesting container class inside jumbotron class -->
-<div class="jumbotron my-jumbo">
-  <div class="container">
-    <div class="page-header">
-      <h1>Frontend Web Developer</h1>
+<div class="jumbotron" id="my-jumbo">
+  <div class="container" id="header-container">
+    <div class="jumbo-header">
+    <span class="project-header">F </span><span class="project-header">r </span><span class="project-header">o </span><span class="project-header">n </span><span class="project-header">t </span><span class="project-header">e </span><span class="project-header">n </span><span class="project-header">d </span>
+    <span class="project-header">  W </span><span class="project-header">e </span><span class="project-header">b </span><span class="project-header">  D </span><span class="project-header">e </span><span class="project-header">v </span><span class="project-header">e </span><span class="project-header">l </span>
+    <span class="project-header">o </span><span class="project-header">p </span><span class="project-header">e </span><span class="project-header">r </span>
     </div>
     <div class="my-copy">
-      <h4>
-        Thanks for checking out my portfolio site.
+      <!--
+      <h3>
+        Welcome, and thanks for stopping by.
+      </h3>
         <p>
-          Here you'll find my projects, page samples, and some widgets and apps
-        </p>This is where I hack out
-      </h4>
+          Here you'll find my projects, apps, widgets, and assorted page samples.
+        </p>
+      -->
     </div>
 
-    <div class="row">
-      <div class="col-xs-4 col-md-8">
+      <div class="row">
+        <div class="col-xs-6 col-md-3">
+          <div class="graph">
+            <div class="bar info-1">
+              <br>
+            </div>
+          </div>
+          <div class="bar info-2">
+            <br>
+          </div>
+          <div class="bar info-3">
+            <br>
+          </div>
+          <div class="bar info-4">
+            <br>
+          </div>
+        </div>
 
+        <div class="col-xs-6 col-md-3">
+
+        </div>
+        <div class="col-xs-6 col-md-3">
+
+        </div>
+        <div class="col-xs-6 col-md-3">
+
+        </div>
       </div>
-    </div>
 
   </div>
 </div>
