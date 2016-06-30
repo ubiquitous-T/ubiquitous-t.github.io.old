@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Photo Album</title>
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" media="screen" title="no title" charset="utf-8">
+
+  </head>
+  <body>
+    <div class="container" id="my-container">
+      <h3>Beach Coders Photo Album</h3>
+      <br>
+      <input class="user-data" type="text" placeholder="username..." name="name">
+      <!--
+      <input class="search-btn" type="button" name="name" value="Search">
+    -->
+      <button class="search-btn" type="button" name="button">Search</button>
+      <!-- container for photo thumbnails -->
+      <div class="thumbnail photo-thumbs">
+
+      </div>
+    </div>
+    <!-- modal container -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+      </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="js/scripts.js" type="text/javascript"></script>
+
+  <!-- modal template -->
+  <script class="photo-modal-template" type="template">
+    <!-- image title -->
+    <!-- image -->
+    <img class="user-photo" src=""/>
+    <!-- image link -->
+  </script>
+  </body>
+</html>
