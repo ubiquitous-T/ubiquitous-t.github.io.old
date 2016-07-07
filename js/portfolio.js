@@ -2,18 +2,19 @@
 var $headerSpaceEl = $(".header-space");
 
 // render template in appropriate DOM object
-var renderTemplate = function($template, $target) {
+var renderTemplate = function(source, $target) {
   var $templateContainer = $("<div>");
-  $templateContainer.html($template);
+  //var template = _.template($(src).html());
+  $templateContainer.load(source);
   $target.append($templateContainer);
 };
 
 // add an event listener on clickable element
 $(".projects-link").on("click", function(event) {
-  var url = "https://ubiquitous-t.github.io/pages/projects.html";
-  var $projectsTemplate = _.template($(".projects-template").html());
-  // load url into template
-  $($projectsTemplate).html(url);
+  event.preventDefault();
+  // get remote html block by id
+  var srcId = "#project-container";
+  var srcUrl = "https://ubiquitous-t.github.io/pages/projects.html "+srcId;
   var $target = $(".content-space");
-  renderTemplate($projectsTemplate, $target);
+  renderTemplate(srcUrl, $target);
 });
