@@ -4,8 +4,11 @@
   font-size: 30px;
 }
 
+.header-bracket-text{
+  font-size: 36px;
+}
+
 .jumbotron{
-  max-height: 300px;
 }
 
 .content-space{
