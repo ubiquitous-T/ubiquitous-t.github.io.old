@@ -10,10 +10,10 @@ var renderTemplate = function($template, $target) {
 
 // add an event listener on clickable element
 $(".projects-link").on("click", function(event) {
-  var url = "pages/projects.html";
+  var url = "https://ubiquitous-t.github.io/pages/projects.html";
   var $projectsTemplate = _.template($(".projects-template").html());
   // load url into template
-  $($projectsTemplate).load(url);
+  $($projectsTemplate).html(url);
   var $target = $(".content-space");
   renderTemplate($projectsTemplate, $target);
 });
