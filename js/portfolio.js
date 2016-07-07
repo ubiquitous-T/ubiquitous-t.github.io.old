@@ -13,8 +13,7 @@ var renderTemplate = function(source, $target) {
 $(".projects-link").on("click", function(event) {
   event.preventDefault();
   // get remote html block by id
-  var srcId = "#project-container";
-  var srcUrl = "https://ubiquitous-t.github.io/pages/projects.html "+srcId;
+  var srcUrl = "https://ubiquitous-t.github.io/pages/projects.html #project-container";
   var $target = $(".content-space");
   renderTemplate(srcUrl, $target);
 });

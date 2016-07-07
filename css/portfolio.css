@@ -4,10 +4,8 @@
   font-size: 30px;
 }
 
-.header-space{
-  width: 100%;
+.jumbotron{
   max-height: 300px;
-  background-color: #f00;
 }
 
 .content-space{
@@ -15,4 +13,13 @@
   max-width: 75%;
   max-height: 640px;
   background-color: dodgerblue;
+}
+
+.container h1{
+  margin: 0 auto;
+  text-align: center;
+}
+.projects-space span ul li{
+  margin: 0 auto;
+  display: inline-block;
 }
