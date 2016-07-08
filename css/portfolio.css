@@ -1,14 +1,27 @@
 
+.header-logo{
+  margin: 0 15px;
+}
+
+.header-logo .left-bracket, .header-logo .right-brakcet{
+  color: green;
+}
+
 .left-bracket,  .right-brakcet,  .bracket-text{
   display: inline-block;
   font-size: 30px;
+}
+
+.left-bracket,  .right-brakcet{
+  color: #e30022;
 }
 
 .header-bracket-text{
   font-size: 36px;
 }
 
-.jumbotron{
+.navbar-btn *:not(.bracket-text):hover{
+  color: green;
 }
 
 .content-space{
