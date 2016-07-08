@@ -44,6 +44,6 @@
   margin: 0 auto;
   text-align: center;
 }
-.navbar-links .container .navabar-btn{
+.navbar-links.container.navabar-btn{
   padding: 0 20px;
 }
