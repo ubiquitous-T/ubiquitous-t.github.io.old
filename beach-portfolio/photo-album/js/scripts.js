@@ -18,22 +18,15 @@ var renderThumbs = function(thumbData) {
 
     $("#thumb-container-"+i).append($("<p>").text(thumbData[i].title).css({"padding": "15px 5px", "width": "200px"}));
 
-    $("#thumb-container-"+i).append($("<a>").attr({"class": "thumb-url", "id": "anchor-"+i, "href": thumbData[i].url}).append($("<img>").attr({"id": "thumb-"+i, "src": thumbData[i].thumbnailUrl})));
+    $("#thumb-container-"+i).append($("<a>").attr({"class": "thumb-url", "id": "anchor-"+i, "href": thumbData[i].url, "data-toggle": "modal", "data-target": ".user-photo"}).append($("<img>").attr({"id": "thumb-"+i, "src": thumbData[i].thumbnailUrl})));
   }
-
-  $thumbUrlEl = $(".thumb-url");
-  $("img").on("click", function(event) {
-    event.preventDefault();
-    getPhoto($(event.target).parent().attr("href"));
-  });
-
 };
 
 /* display photo in modal */
-var renderPhoto = function(photoData) {
-  console.log("photo ", photoData);
+var renderModal = function(sourceUrl) {
+  console.log("src: ", sourceUrl);
   $(".modal-body").html($(".photo-modal-template").html());
-  $(".user-photo").attr("href");
+  $(".user-photo").attr({src: sourceUrl});
 }
 /* retrieve a user's photo album */
 var getUserAlbum = function(userName) {
@@ -44,7 +37,6 @@ var getUserAlbum = function(userName) {
   })
   .success(function(data, textStatus) {
     userId = data[0].id;
-
     // make another ajax request on album endpoint
     $.ajax({
       url: "http://jsonplaceholder.typicode.com/albums/1/photos/?albumId="+userId,
@@ -59,16 +51,14 @@ var getUserAlbum = function(userName) {
 /* retrieve a user's individual photo */
 var getPhoto = function(imageUrl) {
   console.log("imageUrl: ", imageUrl);
-  $.ajax(imageUrl, {/*url: */
-    jsonp: "callback",
+  $.ajax({
+    url: imageUrl,
     dataType: "jsonp",
-    contentType: "image/png",
-    mimeType: "application/javascript",
     method: "GET"
   })
   .success(function(photoData) {
     console.log("image",photoData);
-    renderPhoto(photoData);
+    renderModal(photoData);
     $(".modal-photo").modal("show");
   })
   .fail(function(object, textStatus, errorThrown) {
@@ -80,10 +70,11 @@ var getPhoto = function(imageUrl) {
 $buttonEl.on("click", function(event) {
   getUserAlbum(userName);
 });
-/*
-$(document).on("click", "a", function(event) {
-  event.preventDefault();
-  console.log("target", event.target);
-  getPhoto($(".thumb-url").attr("href"));
+
+$(document).on("click", "img", function(event) {
+  //event.preventDefault();
+  console.log("parent: ", $(event.target).parent());
+  $sourceUrl = $(event.target).parent().attr("href");
+  renderModal($sourceUrl);
+  $("#my-modal").modal("show");
 });
-*/

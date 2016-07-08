@@ -21,15 +21,26 @@
 
       </div>
     </div>
+    <!-- screen space for posted messages -->
+    <div class="user-posts">
+      <br>
+      <!-- use a template for each user post -->
+      <br>
+    </div>
+    <!-- scree space for posting a message -->
+    <div class="message" id="msg-container">
+      <input class="form-control user-message" type="text" name="name" placeholder="enter your message...">
+      <input class="form-control message-btn" type="button" name="name" value="Send">
+    </div>
     <!-- modal container -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
+    <div class="modal fade photo-modal" id="my-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" id="my-modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
       </div>
-      <div class="modal-body">
+      <div class="modal-body" id="my-modal-body">
       </div>
     <div class="modal-footer">
       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -46,7 +57,7 @@
   <script class="photo-modal-template" type="template">
     <!-- image title -->
     <!-- image -->
-    <img class="user-photo" src=""/>
+    <img class="user-photo"/>
     <!-- image link -->
   </script>
   </body>

@@ -1,0 +1,27 @@
+body{
+  background-color:dodgerblue;
+}
+
+.log-in, .verify{
+  display:block;
+  margin:0 auto;
+  margin-top:15px;
+}
+
+.log-in-area{
+  text-align:center;
+}
+
+.disabled{
+  opacity:.7;
+}
+
+.log-in-alert, .wrong-pass-alert{
+  width:300px;
+  position:absolute;
+  top:25px;
+  left:45px;
+  margin:0 auto;
+  z-index:100;
+  box-shadow:3px 3px 10px grey;
+}
