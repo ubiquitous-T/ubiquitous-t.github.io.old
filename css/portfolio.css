@@ -31,15 +31,6 @@
   background-color: dodgerblue;
 }
 
-.container h1{
-  margin: 0 auto;
-  text-align: center;
-}
-.projects-space span ul li{
-  margin: 0 auto;
-  display: inline-block;
-}
-
 .navbar-links, .navbar-links .container{
   margin: 0 auto;
   text-align: center;
