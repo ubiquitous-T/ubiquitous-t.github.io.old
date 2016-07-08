@@ -6,7 +6,7 @@ var renderTemplate = function(source, $target) {
   var $templateContainer = $("<div>");
   //var template = _.template($(src).html());
   $templateContainer.load(source);
-  $target.append($templateContainer);
+  $target.html($templateContainer);
 };
 
 // add an event listener on clickable elements
