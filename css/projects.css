@@ -1,8 +1,4 @@
 
-.container h1{
+.container h1, .container .projects-space{
   margin: 0 auto;
-}
-.projects-space{
-  margin: 0 auto;
-  display: inline-block;
 }
