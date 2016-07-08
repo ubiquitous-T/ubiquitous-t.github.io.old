@@ -1,4 +1,5 @@
 
 .container h1, .container .projects-space{
   margin: 0 auto;
+  text-align: center;
 }
