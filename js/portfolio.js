@@ -9,8 +9,8 @@ var renderTemplate = function(source, $target) {
   $target.append($templateContainer);
 };
 
-// add an event listener on clickable element
-$(".projects-link").on("click", function(event) {
+// add an event listener on clickable elements
+$(".navbar-btn").on("click", function(event) {
   event.preventDefault();
   // get remote html block by id
   var srcUrl = $(this).attr("href");
