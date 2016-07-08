@@ -40,7 +40,7 @@
   display: inline-block;
 }
 
-.navbar-links{
+.navbar-links, .navbar-links .container{
   margin: 0 auto;
   text-align: center;
 }
