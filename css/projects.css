@@ -2,7 +2,7 @@
 .container h1{
   margin: 0 auto;
 }
-.projects-list li{
+.projects-space span{
   margin: 0 auto;
   display: inline-block;
 }
