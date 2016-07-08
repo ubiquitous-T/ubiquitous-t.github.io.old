@@ -39,3 +39,8 @@
   margin: 0 auto;
   display: inline-block;
 }
+
+.navbar-links{
+  margin: 0 auto;
+  text-align: center;
+}
