@@ -44,3 +44,6 @@
   margin: 0 auto;
   text-align: center;
 }
+.navbar-links .container a{
+  padding: 0 20px;
+}
