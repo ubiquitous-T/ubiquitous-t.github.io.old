@@ -1,5 +1,5 @@
 
-.container h1, .container .projects-list{
+.container h1, .container a, .container .projects-list{
   margin: 0 auto;
   text-align: center;
 }
