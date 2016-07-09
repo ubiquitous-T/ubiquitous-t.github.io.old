@@ -1,9 +1,9 @@
 
-.container h1, .container h2{
+.container h1, .container h3{
   text-align: center;
 }
 
-#project-container h2{
+#project-container h3{
   padding: 10px 30px;
   margin: 0 auto;
   width: 70px;
