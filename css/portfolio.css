@@ -12,11 +12,11 @@
   margin: 0 15px;
 }
 
-.header-logo .left-bracket, .header-logo .right-brakcet{
+.header-logo .left-bracket, .header-logo .right-bracket{
   color: #e30022;
 }
 
-.left-bracket,  .right-brakcet,  .bracket-text{
+.left-bracket,  .right-bracket,  .bracket-text{
   display: inline-block;
   font-size: 24px;
 }
