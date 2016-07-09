@@ -1,6 +1,10 @@
+#navbar-top{
+  max-height: 20%;
+}
+
 .jumbotron{
   padding: 10px 0px;
-  max-height: 20%;
+  max-height: inherit;
 }
 
 .jumbotron .container{
@@ -39,9 +43,8 @@
   height: 80%;
 }
 
-.navbar{
-  bottom: 100px;
-  position: absolute;
+#navbar-bottom{
+  bottom: 20px;
 }
 .navbar-btn *:not(.bracket-text):hover{
   color: green;
