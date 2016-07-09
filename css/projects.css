@@ -1,6 +1,6 @@
 
 .container h1, .projects-list{
-  margin: 0 auto;
+  display: block;
   text-align: center;
 }
 
