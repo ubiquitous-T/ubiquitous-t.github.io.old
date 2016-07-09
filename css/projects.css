@@ -3,9 +3,8 @@
   text-align: center;
 }
 
-#project-container h3{
-  padding: 10px 30px;
+.container h3{
   margin: 0 auto;
-  width: 70px;
+  width: 100px;
   display: inline-block;
 }
