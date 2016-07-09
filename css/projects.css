@@ -4,6 +4,6 @@
   text-align: center;
 }
 
-.projects-space{
-  margin: 0 auto;
+.projects-list{
+  display: block;
 }
