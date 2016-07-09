@@ -46,6 +46,7 @@
 }
 
 .content-space{
+  position: inherit;
   bottom: 80px;
 }
 
