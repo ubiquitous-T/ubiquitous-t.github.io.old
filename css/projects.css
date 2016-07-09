@@ -1,8 +1,8 @@
 
-.container h1, .project-title{
+.container h1, h2.project-title{
   text-align: center;
 }
 
-.project-title{
+h2.project-title{
   display: inline-block;
 }
