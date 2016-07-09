@@ -14,7 +14,7 @@
   margin:0 auto;
 }
 
-.related-artists{
+.container{
   bottom: 60px;
 }
 @media (max-width: 465px) {
