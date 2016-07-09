@@ -50,7 +50,7 @@
 }
 
 #navbar-bottom{
-  bottom: 20px;
+  bottom: 10px;
 }
 .navbar-btn *:not(.bracket-text):hover{
   color: green;
