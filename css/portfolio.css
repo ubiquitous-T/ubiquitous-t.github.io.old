@@ -34,15 +34,19 @@
   font-size: 36px;
 }
 
-.navbar-btn *:not(.bracket-text):hover{
-  color: green;
-}
-
 .content-space{
   margin: 0 auto;
   max-width: 75%;
   max-height: 640px;
   background-color: dodgerblue;
+}
+
+.navbar{
+  bottom: 100px;
+  position: sticky;
+}
+.navbar-btn *:not(.bracket-text):hover{
+  color: green;
 }
 
 .navbar-links, .navbar-links .container{
