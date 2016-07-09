@@ -14,6 +14,10 @@
   margin:0 auto;
 }
 
+.top-tracks{
+  padding: 0 0 40px 0;
+}
+
 .related-artists{
   position: absolute;
   bottom: 60px;
