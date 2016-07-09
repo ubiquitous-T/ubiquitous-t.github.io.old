@@ -19,12 +19,13 @@
   color: #e30022;
 }
 
-.left-header-bracket, .right-header-bracket, .header-bracket-text{
-  font-size: 36px;
-}
-
 .default-header-name, .default-header-title{
   margin: auto 0;
+  text-align: left;
+}
+
+.left-header-bracket, .right-header-bracket, .header-bracket-text{
+  font-size: 36px;
 }
 
 .navbar-btn *:not(.bracket-text):hover{
