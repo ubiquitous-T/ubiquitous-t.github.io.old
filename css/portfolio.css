@@ -35,12 +35,16 @@
   font-size: 36px;
 }
 
-#content-container, .content-space{
-  position: relative;
-  top: 200px;
+#content-container{
+  position: absolute;;
+  top: 150px;
   margin: 0 auto;
-  height: 80%;
+  height: 50%;
   z-index: 0;
+}
+
+.content-space{
+
 }
 
 #navbar-bottom{
