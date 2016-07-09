@@ -1,9 +1,8 @@
 #navbar-top{
-  max-height: 20%;
+  max-height: 10%;
 }
 
 .jumbotron{
-  padding: 10px 0px;
   max-height: inherit;
 }
 
