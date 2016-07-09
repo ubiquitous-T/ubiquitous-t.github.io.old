@@ -13,7 +13,7 @@
 }
 
 .header-logo .left-bracket, .header-logo .right-brakcet{
-  color: green;
+  color: #e30022;
 }
 
 .left-bracket,  .right-brakcet,  .bracket-text{
@@ -21,7 +21,7 @@
   font-size: 24px;
 }
 
-.left-bracket,  .right-brakcet, .left-header-bracket, .right-header-bracket{
+.left-bracket,  .right-bracket, .left-header-bracket, .right-header-bracket{
   color: #e30022;
 }
 
