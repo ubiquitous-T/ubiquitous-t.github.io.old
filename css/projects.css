@@ -1,9 +1,4 @@
 
 .container h1, .projects-list{
-  display: block;
   text-align: center;
-}
-
-.projects-list{
-  display: block;
 }
