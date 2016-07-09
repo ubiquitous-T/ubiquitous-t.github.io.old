@@ -15,7 +15,8 @@
 }
 
 .related-artists{
-  position: relative;
+  position: absolute;
+  bottom: 60px;
 }
 
 @media (max-width: 465px) {
