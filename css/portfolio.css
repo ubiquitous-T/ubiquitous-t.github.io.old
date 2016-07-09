@@ -1,9 +1,9 @@
-#navbar-top, .jumbotron{
+#navbar-top{
   padding: 0;
   max-height: 100px;
 }
 
-.jumbotron .container{
+#navbar-top .container{
   padding: 0;
   margin: 0;
   max-height: inherit;
