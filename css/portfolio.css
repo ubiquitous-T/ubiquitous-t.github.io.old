@@ -21,7 +21,7 @@
 
 .left-bracket,  .right-bracket,  .bracket-text{
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .left-bracket,  .right-bracket, .left-header-bracket, .right-header-bracket{
@@ -34,7 +34,7 @@
 }
 
 .left-header-bracket, .right-header-bracket, .header-bracket-text{
-  font-size: 24px;
+  font-size: 22px;
 }
 
 #content-container{
