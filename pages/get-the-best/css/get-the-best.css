@@ -14,9 +14,6 @@
   margin:0 auto;
 }
 
-.container{
-  bottom: 60px;
-}
 @media (max-width: 465px) {
   .artist-search, .top-tracks{
     width:80%;
