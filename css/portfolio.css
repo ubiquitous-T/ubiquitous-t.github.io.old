@@ -35,7 +35,8 @@
   font-size: 36px;
 }
 
-#content-container{
+#content-container, .content-space{
+  top: 150px;
   margin: 0 auto;
   height: 80%;
 }
