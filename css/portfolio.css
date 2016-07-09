@@ -46,12 +46,13 @@
 }
 
 .content-space{
+  margin: 20px 0;
   position: inherit;
   bottom: 100px;
 }
 
 #navbar-bottom{
-  bottom: 20px;
+  bottom: 10px;
 }
 .navbar-btn *:not(.bracket-text):hover{
   color: green;
