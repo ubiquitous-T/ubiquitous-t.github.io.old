@@ -14,14 +14,6 @@
   margin:0 auto;
 }
 
-.top-tracks{
-  padding-bottom: 40px;
-}
-
-.related-artists{
-  bottom: 10px;
-}
-
 @media (max-width: 465px) {
   .artist-search, .top-tracks{
     width:80%;
