@@ -17,6 +17,7 @@
 .related-artists{
   margin: 10px 0px;
   position: relative;
+  top: 10px;
   bottom: 40px;
 }
 
