@@ -18,7 +18,7 @@
 
 .left-bracket,  .right-bracket,  .bracket-text{
   display: inline-block;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .left-bracket,  .right-bracket, .left-header-bracket, .right-header-bracket{
