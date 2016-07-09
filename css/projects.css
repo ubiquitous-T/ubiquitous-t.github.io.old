@@ -5,6 +5,7 @@
 
 #project-container h2{
   padding: 10px 20px;
+  margin: 0 auto;
   width: 70px;
   display: inline-block;
 }
