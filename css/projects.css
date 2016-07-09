@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.container h2{
+#project-container h2{
   width: 70px;
   display: inline-block;
 }
