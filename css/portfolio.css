@@ -16,8 +16,12 @@
   color: #e30022;
 }
 
-.header-bracket-text{
+.left-header-bracket, .right-header-bracket, .header-bracket-text{
   font-size: 36px;
+}
+
+.default-header-name, .default-header-title{
+  margin: auto 0;
 }
 
 .navbar-btn *:not(.bracket-text):hover{
