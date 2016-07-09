@@ -1,6 +1,6 @@
 .jumbotron{
   padding: 10px 0px;
-  max-height: 300px;
+  max-height: 20%;
 }
 
 .jumbotron .container{
@@ -34,16 +34,14 @@
   font-size: 36px;
 }
 
-.content-space{
+#content-container{
   margin: 0 auto;
-  max-width: 75%;
-  max-height: 640px;
-  background-color: dodgerblue;
+  height: 80%;
 }
 
 .navbar{
   bottom: 100px;
-  position: sticky;
+  position: absolute;
 }
 .navbar-btn *:not(.bracket-text):hover{
   color: green;
