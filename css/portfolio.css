@@ -2,13 +2,10 @@
   max-height: 10%;
 }
 
-.jumbotron{
-  max-height: inherit;
-}
-
 .jumbotron .container{
   padding: 0;
   margin: 0;
+  max-height: inherit;
 }
 
 .header-logo{
