@@ -3,7 +3,7 @@
   max-height: 100px;
 }
 
-#navbar-top .container{
+#navbar-top div.container{
   padding: 0;
   margin: 0;
   max-height: inherit;
