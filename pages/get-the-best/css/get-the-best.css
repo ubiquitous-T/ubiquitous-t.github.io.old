@@ -16,7 +16,6 @@
 
 .related-artists{
   position: relative;
-  bottom: 20px;
 }
 
 @media (max-width: 465px) {
