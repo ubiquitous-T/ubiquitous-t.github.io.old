@@ -14,6 +14,9 @@
   margin:0 auto;
 }
 
+.related-artists{
+  bottom: 60px;
+}
 @media (max-width: 465px) {
   .artist-search, .top-tracks{
     width:80%;
