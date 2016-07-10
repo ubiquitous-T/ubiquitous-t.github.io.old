@@ -89,7 +89,7 @@ $(document).on("click",".play",function(event){
   // swap glyphicons by giving new values to
   // class property
   console.log("top-tracks", $(".top-tracks"));
-  console.log($(".top-tracks"+"."+span.className));
+  console.log("pause is showing: ", $(".top-tracks span").attr.className === "pause");
   $(event.target).attr("class", "glyphicon glyphicon-pause pause").css("display", "inline-block");
 
   var songUrl = $(this).attr("url");
