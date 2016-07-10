@@ -96,7 +96,10 @@ $(document).on("click",".play",function(event){
     var classes = target.className.split(" ");
     for (var j = 0;  j < classes.length; j++) {
       if (classes[j] === "pause") {
-        console.log("pause is present: ", classes[j] === "pause")
+        console.log("pause is present: ", classes[j] === "pause");
+        target.className = classes[0] +" "+classes[1] +" play";
+        audio.pause();
+        break;
       }
     }
   }
