@@ -91,7 +91,7 @@ $(document).on("click",".play",function(event){
   var $div = $(".top-tracks div div");
 
   console.log("$div: ", $div[0].childNodes[7].className);
-  for (var i = 0; i < $div.length; i++) {
+  /*for (var i = 0; i < $div.length; i++) {
     var target = $div[i].childNodes[7];
     var classes = target.className.split(" ");
     for (var j = 0;  j < classes.length; j++) {
@@ -104,7 +104,9 @@ $(document).on("click",".play",function(event){
         break;
       }
     }
-  }
+  }*/
+  var $target = $(".top-tracks span");
+  console.log("$target: ", $target);
 
   $(event.target).attr("class", "glyphicon glyphicon-pause pause").css("display", "inline-block");
 
