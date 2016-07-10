@@ -88,7 +88,7 @@ $(".artist-search").on("keydown",function(event){
 $(document).on("click",".play",function(event){
   // swap glyphicons by giving new values to
   // class property
-  console.log("span classes: ", $("document span").attr("class"));
+  console.log("top-tracks: ", $("div.div.top-tracks"));
   $(event.target).attr("class", "glyphicon glyphicon-pause pause").css("display", "inline-block");
 
   var songUrl = $(this).attr("url");
