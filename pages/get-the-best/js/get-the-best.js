@@ -106,7 +106,7 @@ $(document).on("click",".play",function(event){
     }
   }*/
   var $target = $(".top-tracks span");
-  console.log("$target: ", $target);
+  console.log("$target.length: ", $target.length);
 
   $(event.target).attr("class", "glyphicon glyphicon-pause pause").css("display", "inline-block");
 
