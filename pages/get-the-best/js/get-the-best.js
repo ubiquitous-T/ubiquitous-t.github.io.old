@@ -97,7 +97,7 @@ $(document).on("click",".play",function(event){
     for (var j = 0;  j < classes.length; j++) {
       if (classes[j] === "pause") {
         console.log("pause is present: ", classes[j] === "pause");
-        target.className = classes[0] +" "+classes[1] +" play";
+        target.className = classes[0] +" glyphicon-play play";
         console.log("target className: ", target.className);
         target.style.display = "inline-block";
         audio.pause();
