@@ -92,12 +92,13 @@ $(document).on("click",".play",function(event){
 
   console.log("$div: ", $div[0].childNodes[7].className);
   for (var i = 0; i < $div.length; i++) {
-    var target = $div[i].childNodes[7];
-    var classes = target.className.split(" ");
+    var $target = $($div[i].childNodes[7]);
+    var classes = $target.className.split(" ");
     for (var j = 0;  j < classes.length; j++) {
       if (classes[j] === "pause") {
         console.log("pause is present: ", classes[j] === "pause");
-        target.className = classes[0] +" "+classes[1] +" play";
+        $target.className = classes[0] +" "+classes[1] +" play";
+        $target.css("display", "inline-block");
         audio.pause();
         break;
       }
