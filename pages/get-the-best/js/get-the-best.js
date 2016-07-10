@@ -90,9 +90,8 @@ $(document).on("click",".play",function(event){
   // class property
   var $div = $(".top-tracks div div span");
 
-  for (var i = 0; i < $div.length; i++) {
-    console.log("span class: ", ($div[i]).attr("class"));
-  }
+  console.log("span class: ", ($div).attr("class"));
+
   $(event.target).attr("class", "glyphicon glyphicon-pause pause").css("display", "inline-block");
 
   var songUrl = $(this).attr("url");
