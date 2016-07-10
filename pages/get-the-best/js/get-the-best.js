@@ -98,6 +98,7 @@ $(document).on("click",".play",function(event){
       if (classes[j] === "pause") {
         console.log("pause is present: ", classes[j] === "pause");
         target.className = classes[0] +" "+classes[1] +" play";
+        console.log("target className: ", target.className);
         target.style.display = "inline-block";
         audio.pause();
         break;
