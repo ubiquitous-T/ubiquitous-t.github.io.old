@@ -88,9 +88,9 @@ $(".artist-search").on("keydown",function(event){
 $(document).on("click",".play",function(event){
   // swap glyphicons by giving new values to
   // class property
-  var $div = $(".top-tracks div div span");
+  var $div = $(".top-tracks div div");
 
-  console.log("span class: ", ($div[9]));
+  console.log("span class: ", ($div[9]+" span"));
 
   $(event.target).attr("class", "glyphicon glyphicon-pause pause").css("display", "inline-block");
 
