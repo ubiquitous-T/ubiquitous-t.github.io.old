@@ -90,7 +90,7 @@ $(document).on("click",".play",function(event){
   // class property
   var $div = $(".top-tracks div div");
 
-  console.log("$div: ", $($div[0].("<div>")));
+  console.log("$div: ", $div[0].($("<div>")));
 
   $(event.target).attr("class", "glyphicon glyphicon-pause pause").css("display", "inline-block");
 
