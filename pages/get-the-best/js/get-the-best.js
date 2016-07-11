@@ -93,7 +93,9 @@ $(document).on("click",".play",function(event){
 
   for (var i = 0; i < $target.length; i++) {
     var classes = $target.attr("class").split(" ");
-    console.log("classes: ", classes[2]);
+    if (classes[2] === "pause") {
+      $target.attr("class", classes[0]+" glyphicon-play play").css("display", "inline-block");
+    }
   }
 
   $(event.target).attr("class", "glyphicon glyphicon-pause pause").css("display", "inline-block");
