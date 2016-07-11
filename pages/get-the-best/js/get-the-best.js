@@ -95,7 +95,7 @@ $(document).on("click",".play",function(event){
     console.log("classes: ", classes);
     if (classes[2] === "pause") {
       console.log($target[i].attr("class"));
-      $target[i].attr("class", classes[0]+" glyphicon-play play").css("display", "inline-block");
+      $($target[i]).attr("class", classes[0]+" glyphicon-play play").css("display", "inline-block");
     }
   }
 
