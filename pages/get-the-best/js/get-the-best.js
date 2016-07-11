@@ -88,25 +88,16 @@ $(".artist-search").on("keydown",function(event){
 $(document).on("click",".play",function(event){
   // swap glyphicons by giving new values to
   // class property
-  var $div = $(".top-tracks div div");
-
-  console.log("$div: ", $div[0].childNodes[7].className);
-  /*for (var i = 0; i < $div.length; i++) {
-    var target = $div[i].childNodes[7];
-    var classes = target.className.split(" ");
-    for (var j = 0;  j < classes.length; j++) {
-      if (classes[j] === "pause") {
-        console.log("pause is present: ", classes[j] === "pause");
-        target.className = classes[0] +" glyphicon-play play";
-        console.log("target className: ", target.className);
-        target.style.display = "inline-block";
-        audio.pause();
-        break;
-      }
-    }
-  }*/
   var $target = $(".top-tracks span");
   console.log("$target.length: ", $target.length);
+
+  for (var i = 0; i < $target.length; i++) {
+
+    if ($target.attr("class") === "pause") {
+      console.log("pause is present");
+      break;
+    }
+  }
 
   $(event.target).attr("class", "glyphicon glyphicon-pause pause").css("display", "inline-block");
 
