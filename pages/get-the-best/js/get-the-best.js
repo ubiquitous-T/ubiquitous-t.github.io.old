@@ -92,8 +92,8 @@ $(document).on("click",".play",function(event){
   console.log("$target.length: ", $target.length);
 
   for (var i = 0; i < $target.length; i++) {
-
-    if ($target.attr("class") === "pause") {
+    var classes = $target.attr("class").split(" ");
+    if (classes[2] === "pause") {
       console.log("pause is present");
       break;
     }
