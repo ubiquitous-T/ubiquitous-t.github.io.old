@@ -89,12 +89,12 @@ $(document).on("click",".play",function(event){
   // swap glyphicons by giving new values to
   // class property
   var $target = $(".top-tracks span");
-  console.log("$target.length: ", $target.length);
 
   for (var i = 0; i < $target.length; i++) {
     var classes = $target.attr("class").split(" ");
     if (classes[2] === "pause") {
       $target.attr("class", classes[0]+" glyphicon-play play").css("display", "inline-block");
+      console.log("$target.attr(\"class\"): ", $target.length);
     }
   }
 
