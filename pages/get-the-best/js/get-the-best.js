@@ -91,7 +91,7 @@ $(document).on("click",".play",function(event){
   var $target = $(".top-tracks span");
 
   for (var i = 0; i < $target.length; i++) {
-    var classes = $target[i].attr("class").split(" ");
+    var classes = $($target[i]).attr("class").split(" ");
     console.log("classes: ", classes);
     if (classes[2] === "pause") {
       console.log($target[i].attr("class"));
