@@ -68,14 +68,9 @@ var getFormattedDate = function(date) {
 };
 
 var getFormattedTime = function(date) {
-  var meridian = getMeridian(date);
   return date.toLocaleTimeString("en-US");
-  // date.getUTCHours() +":"+ date.getUTCMinutes() +":"+ date.getUTCSeconds() +" "+ meridian;
 };
 
-var getMeridian = function(date) {
-  return (date.getUTCHours() >= 0 && date.getUTCHours() < 12) ? "AM" : "PM";
-};
 var getTimeAgo = function(postDate) {
   var now = Date.now();
   console.log("now: ", now);
