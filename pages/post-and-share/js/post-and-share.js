@@ -69,7 +69,7 @@ var getFormattedDate = function(date) {
 
 var getFormattedTime = function(date) {
   var meridian = getMeridian(date);
-  return date.getLocaleTimeStrint("en-US");
+  return date.getLocaleTimeString("en-US");
   // date.getUTCHours() +":"+ date.getUTCMinutes() +":"+ date.getUTCSeconds() +" "+ meridian;
 };
 
