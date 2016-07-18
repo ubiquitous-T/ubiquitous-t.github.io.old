@@ -32,16 +32,10 @@ var userPosts = JSON.parse(localStorage.getItem("userPosts")) || {
   }
 };
 
-//if (!userPosts) {
-//}
-  localStorage.setItem("userPosts", JSON.stringify(userPosts));
-  console.log("created datastore");
-  //userPosts = JSON.parse(localStorage.getItem("userPosts"));
-  console.log("userPosts datastore: ", userPosts);
-//}
-//else {
-//  console.log("object already exists");
-//}
+localStorage.setItem("userPosts", JSON.stringify(userPosts));
+console.log("created datastore");
+//userPosts = JSON.parse(localStorage.getItem("userPosts"));
+console.log("userPosts datastore: ", userPosts);
 
 // bind event to input object
 $(".message").on("keydown click", function(event) {
