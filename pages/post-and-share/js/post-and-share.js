@@ -32,10 +32,10 @@ var userPosts = JSON.parse(localStorage.getItem("userPosts")) || {
   }
 };
 
-localStorage.setItem("userPosts", JSON.stringify(userPosts));
-console.log("created datastore");
-//userPosts = JSON.parse(localStorage.getItem("userPosts"));
-console.log("userPosts datastore: ", userPosts);
+  localStorage.setItem("userPosts", JSON.stringify(userPosts));
+  console.log("created datastore");
+  //userPosts = JSON.parse(localStorage.getItem("userPosts"));
+  console.log("userPosts datastore: ", userPosts);
 
 // bind event to input object
 $(".message").on("keydown click", function(event) {
@@ -69,7 +69,8 @@ var getFormattedDate = function(date) {
 
 var getFormattedTime = function(date) {
   var meridian = getMeridian(date);
-  return date.getUTCHours() +":"+ date.getUTCMinutes() +":"+ date.getUTCSeconds() +" "+ meridian;
+  return date.getLocaleTimeStrint("en-US");
+  // date.getUTCHours() +":"+ date.getUTCMinutes() +":"+ date.getUTCSeconds() +" "+ meridian;
 };
 
 var getMeridian = function(date) {
