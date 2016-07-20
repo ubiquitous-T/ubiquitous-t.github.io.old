@@ -16,11 +16,11 @@
 }
 
 .header-logo .left-bracket, .header-logo .right-bracket, .bracket-text, .header-bracket-text{
-  color: green;
+  color: #fff;
 }
 
 .left-bracket,  .right-bracket, .left-header-bracket, .right-header-bracket{
-  color: green;
+  color: #fff;
 }
 
 .default-name-header, .default-title-header{
