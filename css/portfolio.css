@@ -59,12 +59,12 @@
 }
 
 .navbar-links, .navbar-links .container{
+  padding-right: 0;
+  padding-left: 0;
   margin: 0 auto;
   text-align: center;
 }
-.row{
-  width: 99.99%;
-}
+
 #apps-link, #projects-link{
   margin: 0 20px;
 }
