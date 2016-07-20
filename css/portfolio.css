@@ -1,15 +1,3 @@
-@media (max-width: @screen-xs) {
-    body{font-size: 12px;}
-}
-
-@media (max-width: @screen-sm) {
-    body{font-size: 14px;}
-}
-
-@media (max-width: @screen-md) {
-    body{font-size: 18px;}
-}
-
 #navbar-top{
   padding: 0;
   max-height: 100px;
@@ -31,11 +19,6 @@
   color: #e30022;
 }
 
-.left-bracket,  .right-bracket,  .bracket-text{
-  display: inline-block;
-  font-size: 1.2em;
-}
-
 .left-bracket,  .right-bracket, .left-header-bracket, .right-header-bracket{
   color: #e30022;
 }
@@ -43,6 +26,23 @@
 .default-name-header, .default-title-header{
   margin: auto 0;
   text-align: left;
+}
+
+@media (max-width: @screen-xs) {
+    body{font-size: 12px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+
+@media (max-width: @screen-md) {
+    body{font-size: 18px;}
+}
+
+.left-bracket,  .right-bracket,  .bracket-text{
+  display: inline-block;
+  font-size: 1.2em;
 }
 
 .left-header-bracket, .right-header-bracket, .header-bracket-text{
