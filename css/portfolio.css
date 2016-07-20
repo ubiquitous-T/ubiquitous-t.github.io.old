@@ -16,15 +16,15 @@
 }
 
 .header-logo .left-bracket, .header-logo .right-bracket{
-  color: #fff;
+  color: chartreuse;
 }
 
 .left-bracket,  .right-bracket, .left-header-bracket, .right-header-bracket{
-  color: #fff;
+  color: chartreuse;
 }
 
  .bracket-text, .header-bracket-text{
-   color: chartreuse;
+   color: #fff;
  }
 
 .default-name-header, .default-title-header{
