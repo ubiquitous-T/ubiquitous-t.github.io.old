@@ -15,13 +15,17 @@
   margin: 0 15px;
 }
 
-.header-logo .left-bracket, .header-logo .right-bracket, .bracket-text, .header-bracket-text{
+.header-logo .left-bracket, .header-logo .right-bracket{
   color: #fff;
 }
 
 .left-bracket,  .right-bracket, .left-header-bracket, .right-header-bracket{
   color: #fff;
 }
+
+ .bracket-text, .header-bracket-text{
+   color: #lightgreen;
+ }
 
 .default-name-header, .default-title-header{
   margin: auto 0;
