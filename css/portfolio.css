@@ -1,6 +1,3 @@
-body{
-  overflow-x: hidden;
-}
 #navbar-top{
   padding: 0;
   max-height: 100px;
@@ -62,9 +59,11 @@ body{
 }
 
 .navbar-links, .navbar-links .container{
-  max-width: 100%;
   margin: 0 auto;
   text-align: center;
+}
+.row{
+  width: 99.99%;
 }
 #apps-link, #projects-link{
   margin: 0 20px;
