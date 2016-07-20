@@ -15,7 +15,7 @@
   margin: 0 15px;
 }
 
-.header-logo .left-bracket, .header-logo .right-bracket{
+.header-logo .left-bracket, .header-logo .right-bracket, .bracket-text, .header-bracket-text{
   color: green;
 }
 
