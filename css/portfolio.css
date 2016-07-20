@@ -42,11 +42,11 @@
 
 .left-bracket,  .right-bracket,  .bracket-text{
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .left-header-bracket, .right-header-bracket, .header-bracket-text{
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 #content-container{
