@@ -96,7 +96,6 @@ $(document).on("click",".play",function(event){
       $($target[i]).attr("class", classes[0]+" glyphicon-play play").css("display", "inline-block");
     }
   }
-
   $(event.target).attr("class", "glyphicon glyphicon-pause pause").css("display", "inline-block");
 
   var songUrl = $(this).attr("url");
